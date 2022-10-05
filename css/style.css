@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1160px;
+}
+/*=========================NAVBAR SECTION===============================*/
+header{
+    background-color: blue;
+    padding: 52px 0 80px;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.header-button{
+    background-color: #E02C6D;
+}
+.header-button:hover{
+    background-color: #E02C6D !important;
+}
+/*=========================NAVBAR SECTION===============================*/
+/*=========================BANNER SECTION===============================*/
+.banner-section{
+    margin-top: 80px;
+}
+.banner-title{
+    font-size: 60px;
+    line-height: 80px;
+    margin: 40px 0px;
+}
+.banner-image img{
+    transition: transform 3s ease-out;
+}
+.banner-image:hover img{
+    transform: scale(1.2);
+}
+/*=========================BANNER SECTION===============================*/
+/*=========================PLAYER SECTION===============================*/
+.card-body p{
+    color: #6C6C6C;
+}
+/*=========================PLAYER SECTION===============================*/
+/*=========================MATCH SECTION================================*/
+.match-section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.match-title h1{
+    font-size: 48px;
+    line-height: 70px;
+}
+.match-title p{
+    color: #6C6C6C;
+}
+/*========================MATCH SECTION==============================*/
+/*========================FOOTER SECTION==============================*/
+.footer-image img{
+    width: 80%;
+}
+.footer-icon img{
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+/*========================Footer SECTION==============================*/
+/*========================RESPONSIVE SECTION==========================*/
+@media only screen and (max-width:575.98px) {
+    .container{
+        width: 100%;
+    }
+    .banner-section{
+        margin: 0;
+    }
+    .banner-title{
+        font-size: 35px;
+        line-height: 50px;
+        margin: 20px 0;
+    }
+    .banner-image{
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width:767.98px) {
+    .card-body{
+        padding-right: 100px;
+    }
+    
+}
+@media only screen and (min-width:576px) and (max-width:991.98px) {
+    .banner-section{
+        margin-top: 30px;
+    }
+    .banner-image{
+        margin-top: 80px;
+        padding-left: 0;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199.98px) {
+    .banner-title{
+        font-size: 50px;
+        line-height: 70px;
+        margin: 20px 0;
+    }
+    .card h3{
+        font-size: 24px;
+    }
+    .match-section{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .match-title h1{
+        font-size: 40px;
+    line-height: 60px;
+    }
+}
+@media only screen and (max-width:991.98px) {
+    .match-section{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
